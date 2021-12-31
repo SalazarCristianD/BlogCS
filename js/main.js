@@ -36,22 +36,19 @@ const pi = Math.floor(Math.PI);
     return (radio * radio)* pi;
 }
 
-/*
-console.group("circulo");
-//radio
-  const radioC = 4;
-  console.log("el radio del círculo es " + radioC + "cm");
- //diámetro
- const diametroC = radioC * 2;
- console.log("el diametro del círculo es " + radioC + "cm");
- // PI
 
- //Math.PI
- // perimetro 
- const perimetroC = diametroC * pi;
- console.log("el perimétro del círculo es " + perimetroC + "cm");
- // area
- const areaC = (radioC * radioC) * pi; 
- console.log("el area del círculo es " + areaC + "cm cuadrados");
-console.groupEnd();
-*/
+function calcularPerimetrocuadrado(){
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+
+    const perimetroA = perimetroCu(value);
+    alert("perimetroA");
+
+}
+function calcularAreacuadrado(){
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+
+    const areas = areaCu(value);
+    alert("areas");
+}

@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Blog Cristian 1.0</title>
+    <title>Blog Cristian2.0</title>
 </head>
 <body>
-    <div>
-        <h1>titulo temporal</h1>
-    </div>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Este es el primer taller</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cauadrado</h2>
+        <form">
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado;
+            </label>
+            <input id="inputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetrocuadrado">
+                Calcular perimetro.
+            </button>
+            <button type="button" onclick="calcularAreacuadrado">
+                Calcular area.
+            </button>
+        </form>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
