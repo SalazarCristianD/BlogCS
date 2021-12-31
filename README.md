@@ -1,0 +1,2 @@
+# BlogCS
+Blog de practica
